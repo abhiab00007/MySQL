@@ -1,4 +1,4 @@
-create database managers_db;
+CREATE DATABASE managers_db;
 use managers_db;
 
 CREATE TABLE Managers (
