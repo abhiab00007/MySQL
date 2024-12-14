@@ -118,7 +118,7 @@ country_id: Foreign key linking the person to the country table.
 country_name: Name of the associated country.      
 
 - Insert Data      
-Country Table: 10 records were inserted into the country table using the INSERT INTO command.
+Country Table: 10 records were inserted into the country table using the INSERT INTO command.       
 Persons Table: 10 records were inserted into the persons table using the INSERT INTO command.
 
 ### Queries Executed
