@@ -99,7 +99,7 @@ Displayed countries with a population between 5 lakhs and 20 lakhs by using the 
 - Filter by Country Name Prefix    
 Fetched all countries whose names do not start with 'C' by using the not like function
 
-## Assignment5: Sorting and grouping data
+## Assignment5.Sorting and grouping data
 
 ### Steps performed:
 
