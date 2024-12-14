@@ -51,3 +51,50 @@ Fetched records of all managers except the one named 'Aaliya' using the SELECT c
 Displayed details of managers in the IT department earning more than 25000 using the SELECT command with AND conditions.  
 Displayed details of managers whose salary is between 10000 and 35000  using the BETWEEN operator.
 
+## Assignment4.Querying data
+
+### Steps performed:
+
+-Create Tables
+
+1)Country Table: The country table was created with the following structure:  
+id:Auto incremented primary key to ensure unique identification for each country.  
+country_name:Name of the country.    
+population:Population of the country.  
+area:Area of the country.  
+
+2)Persons Table: The persons table was created with the following structure:
+id: Auto incremented primary key to ensure unique identification for each person.  
+fname and lname: First and last names of individuals.   
+population: Population associated with the person’s country.   
+rating: Rating of the person.     
+country_id: Foreign key linking the person to the country table.     
+country_name: Name of the associated country.    
+
+-Insert data
+
+Country Table: 10 records were inserted into the country table using the INSERT INTO command.    
+Persons Table: 10 records were inserted into the persons table using the INSERT INTO command.
+
+### Queries Executed
+
+-List Distinct Country Names
+Displayed distinct country names by using the distinct function from the persons table
+-Use Aliases for Columns
+Displayed first names and last names by using aliases with the as keyword for better readability
+-Filter by Rating
+Fetched all persons with a rating greater than 4.0 by using the comparison operator > and the where clause
+-Filter Countries by Population
+Displayed countries with a population greater than 10 lakhs by using the comparison operator >
+-Filter by Multiple Conditions
+Fetched persons who are from 'USA' or have a rating greater than 4.5 by using logical operators
+-Check for Null Country Names
+Fetched all persons where the country name is NULL by using the is null function
+-Filter by Specific Countries
+Displayed all persons from the countries 'USA', 'Canada', and 'UK' by using the in function
+-Exclude Specific Countries
+Displayed all persons not from the countries 'India' and 'Australia' by using the not in function
+-Filter Countries by Population Range
+Displayed countries with a population between 5 lakhs and 20 lakhs by using the between function
+-Filter by Country Name Prefix
+Fetched all countries whose names do not start with 'C' by using the not like function
